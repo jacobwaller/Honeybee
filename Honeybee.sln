@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeybee", "Honeybee\Honeybee.csproj", "{75E81056-D463-424C-9574-01DE7BB7D2B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeybee.Test.Common", "Honeybee.Test.Common\Honeybee.Test.Common.csproj", "{65B3E699-1A14-4202-A6EA-C1EB8DD0964F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeybee.Test.Api", "Honeybee.Test.Api\Honeybee.Test.Api.csproj", "{C875BBF5-A0C3-46F5-B012-178F107841D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeybee.Test.Int", "Honeybee.Test.Int\Honeybee.Test.Int.csproj", "{63AF6253-A2E7-4A49-ACF7-48547B5A2971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E81056-D463-424C-9574-01DE7BB7D2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E81056-D463-424C-9574-01DE7BB7D2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E81056-D463-424C-9574-01DE7BB7D2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E81056-D463-424C-9574-01DE7BB7D2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B3E699-1A14-4202-A6EA-C1EB8DD0964F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B3E699-1A14-4202-A6EA-C1EB8DD0964F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B3E699-1A14-4202-A6EA-C1EB8DD0964F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B3E699-1A14-4202-A6EA-C1EB8DD0964F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C875BBF5-A0C3-46F5-B012-178F107841D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C875BBF5-A0C3-46F5-B012-178F107841D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C875BBF5-A0C3-46F5-B012-178F107841D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C875BBF5-A0C3-46F5-B012-178F107841D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AF6253-A2E7-4A49-ACF7-48547B5A2971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AF6253-A2E7-4A49-ACF7-48547B5A2971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AF6253-A2E7-4A49-ACF7-48547B5A2971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AF6253-A2E7-4A49-ACF7-48547B5A2971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

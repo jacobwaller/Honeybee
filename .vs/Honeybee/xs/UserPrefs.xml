@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{75E81056-D463-424C-9574-01DE7BB7D2B9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Honeybee.Test.Common FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Honeybee.Test.Int FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Honeybee PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Honeybee.Test.Common/BaseApi.cs">
+    <Files>
+      <File FileName="Honeybee/UnitTest1.cs" Line="9" Column="45" />
+      <File FileName="Honeybee.Test.Common/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Honeybee.Test.Api/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Honeybee.Test.Common/BaseApi.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Honeybee" expanded="True">
+            <Node name="Honeybee" expanded="True" />
+            <Node name="Honeybee.Test.Api" expanded="True" selected="True" />
+            <Node name="Honeybee.Test.Common" expanded="True" />
+            <Node name="Honeybee.Test.Int" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Honeybee" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Honeybee.Test.Api FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
