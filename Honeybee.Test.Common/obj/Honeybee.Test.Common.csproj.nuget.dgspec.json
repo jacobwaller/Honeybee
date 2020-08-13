@@ -39,9 +39,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
             },
             "coverlet.collector": {
               "target": "Package",
