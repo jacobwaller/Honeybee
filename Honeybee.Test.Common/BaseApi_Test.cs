@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using FluentAssertions;
-using Microsoft.Azure.Documents;
-using Microsoft.Azure.Documents.Client;
 using Microsoft.Extensions.Configuration;
 using RestSharp;
 using Xunit;
-using Newtonsoft.Json;
-using System.Threading.Tasks;
-using System.Security.Cryptography;
-using System.IO;
-using Newtonsoft.Json.Serialization;
 using Honeybee.Test.Common.Models;
 
 namespace Honeybee.Test.Common
