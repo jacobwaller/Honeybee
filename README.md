@@ -59,3 +59,5 @@ RestSharp was chosen because of how easily it is able to handle authentication. 
 ### Honeybee.Test.Api
 
 This is where the bulk of your code will go. Assuming the base class is configured correctly, preemptive automation should be fairly easy. There are a few samples in the project directory that highlight how easy it is to write new tests for your API. Remember, the goal of Honeybee is to be human-readable and quickly-writeable. This means that, not including initialization of models, tests can be just a few lines long and still test complex functionality.
+
+** Some tests are currently failing. ** This is because regres does not handle errors in a way you might expect. I configured the sample tests to something more realistic, but expect failing tests if you run what we've got without modification.
