@@ -14,7 +14,6 @@ namespace Honeybee.Test.Common
         protected readonly IConfigurationRoot Config;
 
         protected RestClient Client;
-        protected RestClient InternalClient;
 
         //To handle multiple paths which may not be the same
         private readonly string CreatePath = "api/users";
@@ -27,7 +26,6 @@ namespace Honeybee.Test.Common
         {
             Client = new RestClient(QA_ENDPOINT);
             
-
             Config = new ConfigurationBuilder()
               .SetBasePath(AppContext.BaseDirectory)
               .AddJsonFile("appsettings.local.json", true, true)
@@ -47,14 +45,22 @@ namespace Honeybee.Test.Common
          */
         public void CleanDatabase()
         {
-
+            //TODO: Left as an exercise to the reader 
         }
 
+        /**
+         * Fetches the AuthToken from either appsettings.local.json or from the
+         * environment variables if deployed
+         */
         public string GetAuthToken()
         {
             return Config.GetValue<string>("QA:AuthToken");
         }
 
+        /**
+         * POSTs to our API with the CreateUserRequestModel and returns
+         * an IRestResponse
+         */
         public IRestResponse CreateUser(CreateUserRequestModel model)
         {
             RestRequest request = new RestRequest(CreatePath);
@@ -67,6 +73,10 @@ namespace Honeybee.Test.Common
             return Client.Post(request);
         }
 
+        /**
+         * GETs the user with the given id
+         * an IRestResponse
+         */
         public IRestResponse GetUser(int id)
         {
             RestRequest request = new RestRequest(GetPath + "/" + id);
